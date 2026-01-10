@@ -36,3 +36,12 @@ img {
 button {
   font: inherit;
 }
+
+ul,
+ol {
+    list-style: none;
+}
+
+p, a {
+    font-size: 18px;
+}
