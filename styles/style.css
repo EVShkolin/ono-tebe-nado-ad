@@ -38,8 +38,9 @@
 .cover-title {
     position: relative;
     display: flex;
+    gap: 20px;
     flex-direction: column;
-    font-size: 80px;
+    font-size: 100px;
     font-weight: 600;
     color: white;
     letter-spacing: 2rem;
@@ -53,7 +54,10 @@
 }
 
 .cover-title--third {
+    display: inline-block;
+    width: 400px;
     align-self: end;
+    text-align: right;
 }
 
 .description {
